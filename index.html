@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stacked & Sizzling</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="/favicon/favicon-48x48.png" sizes="48x48" />
+    <link rel="icon" type="image/svg+xml" href="/favicon/favicon.svg" />
+    <link rel="shortcut icon" href="/favicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="Zen Bites" />
+    <link rel="manifest" href="/favicon/site.webmanifest" />
+
+    <link rel="stylesheet" href="vendors/bootstrap-5.3.3/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css?v=0.1" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <img id="cover-image" src="" alt="cover image" loading="lazy" onError="this.onerror=null;this.src='/img/cover-placeholder.jpg';" />
+    </header>
+    <header class="bg-section-secondary">
+      <div class="container">
+        <div class="d-flex flex-row justify-content-between align-items-start pb-3">
+          <img id="logo" class="img-fluid rounded" src="" alt="" width="120" height="120" onError="this.onerror=null;this.src='/img/logo-placeholder.png';" />
+          <div class="d-flex py-2 gap-2">
+            <div class="dropdown">
+              <button class="btn btn-primary" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <svg width="20" height="20" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M28.2 6.77594V17.7279C28.2 18.5359 27.544 19.1839 26.744 19.1839C25.936 19.1839 25.288 18.5279 25.288 17.7279V6.71994C25.288 4.88794 24.056 4.33594 22.872 4.33594C21.688 4.33594 20.456 4.87994 20.456 6.71994V17.8959C20.456 18.6079 19.88 19.1839 19.168 19.1839H19C18.192 19.1839 17.544 18.5279 17.544 17.7279V6.77594C17.544 3.48794 12.864 3.60794 12.864 6.80794V17.4319C12.848 23.3359 14.256 24.8639 16.584 26.7039C18.456 28.1839 20.064 29.0319 20.064 32.7119V58.7119C20.064 60.2719 21.328 61.5359 22.888 61.5359C24.448 61.5359 25.712 60.2719 25.712 58.7119V32.7119C25.712 29.0399 27.312 28.1839 29.192 26.7039C31.52 24.8639 32.928 23.3359 32.912 17.4319V6.80794C32.912 3.59994 28.232 3.48794 28.232 6.77594H28.2Z"
+                    fill="currentColor"
+                  />
+                  <path d="M43.984 7.87993C42.96 11.2959 39.888 19.1359 39.12 26.0479C38.352 32.9519 41.928 35.2559 44.232 39.0879C46.536 42.9199 44.24 39.1039 44.248 39.1119L45.504 42.2719C45.512 42.2959 45.52 42.3119 45.52 42.3359V57.8319C45.52 59.8799 47.176 61.5359 49.224 61.5359H51.16V7.87993C51.16 3.78393 45.528 2.75993 43.992 7.87993H43.984Z" fill="currentColor" />
+                </svg>
+                Order now
+              </button>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="#">
+                    <svg width="24" height="24" viewBox="0 0 448 493" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M323 0L300 217.3L260.9 34.1L138.1 60.1L177.2 243.3L0.200195 280.7L31.5002 427L342.8 492.8L414 333.8L447.9 13.1L323 0ZM224.6 315.3C218.2 321.1 209.7 320.6 200.7 317.6C191.7 314.6 187.7 303.8 191.1 290.7C193.6 281 205.6 279.5 211.6 279.4C213.9 279.4 216.1 279.8 218.2 280.7C222.4 282.6 229.6 286.7 231 292.9C233.1 301.9 231.1 309.4 224.6 315.3ZM314.7 325.3C310 333.4 297.8 334.4 285.8 328.6C277.7 324.6 277.7 314.6 278.6 308.4C279.1 305.1 280.4 301.9 282.5 299.2C285.4 295.5 290.2 290.8 295.8 290.6C304.9 290.4 312.7 294.4 317.1 301.8C321.7 309.2 319.5 317.3 314.7 325.3Z"
+                        fill="currentColor"
+                      />
+                    </svg>
+
+                    Deliveroo</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">
+                    <svg width="24" height="24" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M28.2 44.5999C28.2 42.0999 26.2 40.0999 23.9 40.0999C21.4 40.0999 19.4 42.1 19.4 44.4C19.4 46.9 21.4 48.9 23.7 48.9C26.2 49.1 28.2 47.1999 28.2 44.5999ZM31.8 37.5V51.9H28.2V50.5999C26.9 51.6999 25.3 52.2999 23.5 52.2999C19.2 52.2999 15.7 48.9999 15.7 44.7999C15.7 40.5999 19.2 37.2999 23.5 37.2999C25.2 37.2999 26.8 37.9 28.2 39V37.7C28.2 37.5 31.8 37.5 31.8 37.5ZM44.1 48.5H41.3C40.5 48.5 39.9 48.1 39.9 47.4V40.7H44.1V37.5H39.9V33.5H36.1V37.5H33.3V40.7H36.1V48.4C36.1 50.4 37.5 51.9 40 51.9H44L44.1 48.5ZM52.6 52.2C56.9 52.2 59.3 50.2 59.3 47.5C59.3 45.5 57.9 44 54.8 43.5L51.6 42.7999C49.8 42.4999 49.2 42.1 49.2 41.4C49.2 40.6 50 40 51.7 40C53.5 40 54.8 40.3999 55.2 42.0999H58.8C58.7 39.1999 56.4 37.0999 52 37.0999C48.1 37.0999 45.4 38.6 45.4 41.7C45.4 43.8 46.9 45.2 50.1 45.9L53.6 46.7C55 47 55.4 47.4 55.4 48C55.4 48.8 54.3 49.4 52.6 49.4C50.5 49.4 49.3 48.9999 48.8 47.2999H45C45.6 50.1999 48 52.2 52.6 52.2ZM0.899997 32.4H14.8V35.7H4.6V40.4H14.5V43.5999H4.6V48.5H14.6V51.7999H0.699997V32.4H0.899997ZM58.9 15.5V12.9H57.9C56.4 12.9 55.1 13.6 54.4 14.7V12.9H51.6V27.2999H54.5V19.2C54.5 17 55.9 15.6 57.7 15.6C57.6 15.5 58.9 15.5 58.9 15.5ZM38.4 18.8C39 16.6 40.6 15.2 42.9 15.2C45 15.2 46.8 16.6 47.2 18.8H38.4ZM42.8 12.8C38.8 12.8 35.4 16 35.4 20.1C35.4 24.3 38.7 27.5 43.1 27.5C45.7 27.5 47.8 26.4 49.4 24.4L47.2 23C46.1 24.4 44.7 25.1 43 25.1C40.6 25.1 38.5 23.4 38.3 21.1H50V20.1C49.9 15.9 47 12.8 42.8 12.8ZM26.5 25.1C23.9 25.1 21.6 22.9 21.6 20.1C21.6 17.5 23.8 15.2 26.6 15.2C29.2 15.2 31.5 17.4 31.5 20.1C31.4 22.9 29.2 25.1 26.5 25.1ZM18.7 27.2H21.5V25.4C22.9 26.8 24.7 27.5 26.7 27.5C30.9 27.5 34.2 24.2 34.2 20.1C34.2 16 30.9 12.7 26.7 12.7C24.7 12.7 22.9 13.4 21.5 14.8V7.69995H18.6V27.2H18.7ZM8.7 25C11.5 25 13.6 22.9 13.6 19.8V7.79995H16.5V27.2H13.6V25.4C12.2 26.8 10.4 27.5 8.3 27.5C4.1 27.5 0.799997 24.4 0.799997 19.8V7.69995H3.7V19.7C3.8 22.9 5.9 25 8.7 25Z"
+                        fill="currentColor"
+                      />
+                    </svg>
+
+                    UberEats</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">
+                    <svg width="24" height="24" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M61.3888 22.6049C58.5728 17.3825 53.056 14.1313 47.0528 14.1441H1.68959C1.06239 14.1441 0.499187 14.5281 0.255987 15.1041C0.0127868 15.6801 0.153587 16.3457 0.588787 16.7809L10.4704 26.5857C11.3408 27.4561 12.5312 27.9425 13.7728 27.9425H45.76C48.0384 27.9169 49.9072 29.7217 49.9328 31.9745C49.9584 34.2273 48.128 36.0577 45.8496 36.0833H23.7824C23.1552 36.0833 22.592 36.4545 22.3488 37.0305C22.1056 37.6065 22.2336 38.2721 22.6816 38.7073L32.576 48.5249C33.4592 49.3953 34.6368 49.8817 35.8784 49.8817H45.8496C58.8288 49.8817 68.6336 36.1857 61.3888 22.6049Z"
+                        fill="currentColor"
+                      />
+                    </svg>
+
+                    Doordash</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <header class="bg-section-secondary">
+      <div class="container">
+        <div id="venue-details">
+          <h2 class="card-title placeholder-glow">
+            <span class="placeholder col-6"></span>
+          </h2>
+          <p class="card-text placeholder-glow">
+            <span class="placeholder col-7"></span>
+            <span class="placeholder col-6"></span>
+          </p>
+          <p class="card-text placeholder-glow">
+            <span class="placeholder col-3"></span>
+            <span class="placeholder col-3"></span>
+            <span class="placeholder col-3"></span>
+          </p>
+        </div>
+      </div>
+    </header>
+
+    <nav class="bg-section-secondary sticky-top nav-border">
+      <div class="container">
+        <ul id="menu-nav" class="nav nav-underline flex-row flex-nowrap overflow-scroll gap-4"></ul>
+      </div>
+    </nav>
+
+    <div class="container">
+      <section id="menu_wrapper" class="mb-5"></section>
+    </div>
+
+    <!-- Item Modal -->
+    <div class="modal fade" id="itemModal" tabindex="-1" aria-labelledby="itemModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <img id="modalFoodImage" class="img-fluid" src="" alt="" />
+            <button type="button" class="z-3 btn position-absolute top-0 end-0 m-2" data-bs-dismiss="modal" aria-label="Close">
+              <img src="/img/close.svg" alt="" width="24" height="24" />
+            </button>
+          </div>
+          <div class="modal-body">
+            <p id="modalFoodTitle" class="food-title mb-1">Food title</p>
+            <p id="modalFoodPrice" class="menu-price mb-1">${item.price}</p>
+            <p id="modalFoodDescription" class="food-details">${item.description}</p>
+            <div class="d-flex p-2 border border-secondary mb-3">
+              <img class="me-1" src="img/icon-info.svg" width="20" height="20" alt="" />
+              <p class="text-muted small m-0">Questions about allergens, ingredients or cooking methods? Please contact the restaurant</p>
+            </div>
+            <p class="text-muted small text-uppercase fw-bold mb-1">Order from</p>
+            <div class="d-grid gap-2 d-flex">
+              <a href="#" class="btn btn-primary w-100" target="_blank">Deliveroo</a>
+              <a href="#" class="btn btn-primary w-100" target="_blank">UberEats</a>
+              <a href="#" class="btn btn-primary w-100" target="_blank">Doordash</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/index.js?v=0.1"></script>
+    <script src="vendors/bootstrap-5.3.3/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

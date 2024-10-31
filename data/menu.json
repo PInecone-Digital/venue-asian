@@ -1,0 +1,430 @@
+{
+  "info": [
+    {
+      "name": "Zen Bites",
+      "description": "Zen Bites is an Asian-inspired fusion restaurant that offers authentic flavors from across East Asia. We specialize in handcrafted gyoza, rice bowls, teppanyaki noodles, and ramen made fresh daily, along with refreshing desserts and drinks.",
+      "location": "456 Tokyo Avenue, San Francisco, CA 94102",
+      "locationLink": "https://goo.gl/maps/example",
+      "website": "https://zenbites.com",
+      "phone": "(415) 555-6789",
+      "coverImage": "cover.webp",
+      "logoImage": "logo.png"
+    }
+  ],
+  "menu": [
+    {
+      "category": "Gyoza",
+      "icon": "<svg width='24' height='24' viewBox='0 0 64 64' fill='none' xmlns='http://www.w3.org/2000/svg'><path fill-rule='evenodd' clip-rule='evenodd' d='M57.2707 44.8269C41.1395 48.82 23.0528 49.1719 5.75814 45.1542C3.93728 44.7311 2.75561 43.0043 3.04297 41.1981C5.21707 27.5455 15.4736 17 31.9132 17C46.5558 17 56.8053 25.2148 59.9326 40.7531C60.3013 42.5825 59.121 44.3682 57.2707 44.8269Z' stroke='currentColor' stroke-width='4' stroke-miterlimit='10' stroke-linecap='round' stroke-linejoin='round'/><path d='M21 38L14 35' stroke='currentColor' stroke-width='4' stroke-miterlimit='10' stroke-linecap='round' stroke-linejoin='round'/><path d='M26 34L22 27' stroke='currentColor' stroke-width='4' stroke-miterlimit='10' stroke-linecap='round' stroke-linejoin='round'/><path d='M32 32L33 25' stroke='currentColor' stroke-width='4' stroke-miterlimit='10' stroke-linecap='round' stroke-linejoin='round'/><path d='M39 34L43 28' stroke='currentColor' stroke-width='4' stroke-miterlimit='10' stroke-linecap='round' stroke-linejoin='round'/><path d='M44 38L50 35' stroke='currentColor' stroke-width='4' stroke-miterlimit='10' stroke-linecap='round' stroke-linejoin='round'/></svg>",
+      "description": "Handmade Japanese-style dumplings with savory fillings, served with house dipping sauces.",
+      "items": [
+        {
+          "image": "01.png",
+          "name": "Beef + kimchee gyoza",
+          "description": "Steamed and served with a zingy yuzu dipping sauce",
+          "ingredients": "",
+          "notes": "",
+          "prices": [
+            {
+              "option": "Single",
+              "price": "$8.00"
+            }
+          ]
+        },
+        {
+          "image": "02.png",
+          "name": "Edamame, truffle and pulled shiitake gyoza",
+          "description": "steamed and served with a zingy yuzu dipping sauce",
+          "calories": "",
+          "ingredients": "",
+          "notes": "",
+          "prices": [
+            {
+              "option": "Single",
+              "price": "$7.50"
+            }
+          ]
+        },
+        {
+          "image": "03.png",
+          "name": "Yasai gyoza | vegetable",
+          "description": "Steamed green gyoza served with a spiced vinegar dipping sauce",
+          "ingredients": "",
+          "notes": "",
+          "prices": [
+            {
+              "option": "Single",
+              "price": "$7.00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Sides & shareables",
+      "icon": "<svg width='24' height='24' viewBox='0 0 64 64' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M61 37C61 50.8074 49.8085 62 36.0025 62C22.1965 62 11 50.8125 11 37H61Z' stroke='currentColor' stroke-width='4' stroke-miterlimit='10' stroke-linecap='round' stroke-linejoin='round'/><path d='M33 36C33 31.5801 36.5801 28 41 28C45.4199 28 49 31.5801 49 36' stroke='currentColor' stroke-width='4' stroke-miterlimit='10' stroke-linecap='round' stroke-linejoin='round'/><path d='M12.3174 36C12.3174 36 5.53642 31.9606 4.59559 29.5545C3.65476 27.1484 3.79989 23.9743 5.23615 22.482C6.67241 20.9897 9.14959 19.0697 12.3174 20.5085C15.4852 21.9473 18.0624 24.8395 19.2985 27.4352C20.5346 30.0309 20.9349 33.3022 20.98 34.2647C21.025 35.2271 20.98 35.9951 20.98 35.9951' stroke='currentColor' stroke-width='4' stroke-miterlimit='10' stroke-linecap='round' stroke-linejoin='round'/><path d='M8 25C11.9647 27.8937 14.9663 31.5636 17 36' stroke='currentColor' stroke-width='4' stroke-miterlimit='10' stroke-linecap='round' stroke-linejoin='round'/><path d='M19 25.5064C19 25.5064 19.6613 22.1264 21.7544 20.3783C23.9669 18.5333 27.6858 18.5478 29.4807 20.3783C31.4495 22.3927 32.6776 27.1335 31.5987 30.8234C30.5198 34.5134 29.8287 36 29.8287 36' stroke='currentColor' stroke-width='4' stroke-miterlimit='10' stroke-linecap='round' stroke-linejoin='round'/><path d='M24 36C25.3922 31.81 25.2731 27.4623 24 23' stroke='currentColor' stroke-width='4' stroke-miterlimit='10' stroke-linecap='round' stroke-linejoin='round'/><path d='M42 28.0663C42 28.0663 42.4915 25.1177 44.6015 24.167C46.7115 23.2163 49.2683 24.693 49.2683 24.693C49.2683 24.693 51.2343 21.257 54.2776 21.0157C57.3209 20.7744 60.1706 23.3562 60.2699 25.7933C60.3692 28.2304 58.5522 30.7109 58.5522 30.7109C58.5522 30.7109 60.7614 31.6181 60.96 33.0997C61.1586 34.5812 60.5529 36 60.5529 36' stroke='currentColor' stroke-width='4' stroke-miterlimit='10' stroke-linecap='round' stroke-linejoin='round'/></svg>",
+      "description": "Delicious small plates perfect for sharing or enjoying on the side.",
+      "items": [
+        {
+          "image": "04.png",
+          "name": "Hot honey fried chicken",
+          "description": "Chicken coated in hot honey + yuzu sauce. topped with mixed pickles and served with a zesty vegan mayo on the side",
+          "ingredients": "",
+          "notes": "",
+          "prices": [
+            {
+              "option": "Regular",
+              "price": "$9.00"
+            }
+          ]
+        },
+        {
+          "image": "05.png",
+          "name": "Hot honey fried chicken",
+          "description": "Chicken coated in hot honey + teriyaki sauce. topped with mixed pickles and served with a zesty vegan mayo on the side",
+          "ingredients": "",
+          "notes": "",
+          "prices": [
+            {
+              "option": "Regular",
+              "price": "$9.00"
+            }
+          ]
+        },
+        {
+          "image": "06.png",
+          "name": "Hot honey fried chicken",
+          "description": "Chicken coated in hot honey + firecracker sauce. topped with mixed pickles and served with a zesty vegan mayo on the side",
+          "ingredients": "",
+          "notes": "",
+          "prices": [
+            {
+              "option": "Regular",
+              "price": "$9.00"
+            }
+          ]
+        },
+        {
+          "image": "07.png",
+          "name": "Koko 'prawn' crackers",
+          "description": "Asian-style crackers tossed in a coconut, chilli and lime salt. served with a sweet chilli sauce on the side",
+          "ingredients": "",
+          "notes": "",
+          "prices": [
+            {
+              "option": "Regular",
+              "price": "$2.5"
+            }
+          ]
+        },
+        {
+          "image": "08.png",
+          "name": "Chilli squid",
+          "description": "Our iconic crispy fried squid tossed in shichimi spice. served with a chilli + coriander dipping sauce",
+          "ingredients": "",
+          "notes": "",
+          "prices": [
+            {
+              "option": "Regular",
+              "price": "$8.50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Rice bowls",
+      "icon": "<svg width='24' height='24' viewBox='0 0 64 64' fill='none' xmlns='http://www.w3.org/2000/svg'><g clip-path='url(#clip0_88_42)'><path d='M2 29H62C61.3454 40.0011 56.5981 48.5219 46.8305 54H17.1695C6.99127 47.851 2.2949 39.3645 2 29Z' stroke='currentColor' stroke-width='4' stroke-miterlimit='10' stroke-linecap='round' stroke-linejoin='round'/><path d='M17 55V59.1489C17 60.7242 18.3774 62 20.075 62H43.9251C45.624 62 47 60.7229 47 59.1489V55H17Z' stroke='currentColor' stroke-width='4' stroke-miterlimit='10' stroke-linecap='round' stroke-linejoin='round'/><path d='M6 27.9986C6.44499 25.9598 7.5257 23.9554 9.68157 22.0061C8.02597 16.5292 9.81839 12.8278 15.7857 11.2783C17.1898 5.95441 20.653 3.92245 26.0566 4.99633C30.4899 0.961346 34.8155 1.0413 39.0402 4.99633C44.557 4.06857 48.2289 6.11984 49.7947 11.5692C54.4657 12.8512 57.05 15.8482 55.8989 21.911C57.6678 23.6535 58.7941 25.6468 59 28' stroke='currentColor' stroke-width='4' stroke-miterlimit='10' stroke-linecap='round' stroke-linejoin='round'/><path d='M47 21H47.5' stroke='currentColor' stroke-width='4' stroke-miterlimit='10' stroke-linecap='round' stroke-linejoin='round'/><path d='M39.5 17H39' stroke='currentColor' stroke-width='4' stroke-miterlimit='10' stroke-linecap='round' stroke-linejoin='round'/><path d='M17 17H17.5' stroke='currentColor' stroke-width='4' stroke-miterlimit='10' stroke-linecap='round' stroke-linejoin='round'/></g><defs><clipPath id='clip0_88_42'><rect width='64' height='64' fill='white'/></clipPath></defs></svg>",
+      "description": "Satisfying rice bowls with flavorful toppings served over a bed of fluffy steamed rice.",
+      "items": [
+        {
+          "image": "09.png",
+          "name": "Chicken gochujang rice bowl",
+          "description": "Chicken in a spicy gochujang glaze on a bed of sticky white rice. bok choi. pickled cucumber. snow onion slaw. red + spring onion. red chilli. sesame seeds",
+          "ingredients": "",
+          "notes": "",
+          "prices": [
+            {
+              "option": "Regular",
+              "price": "$15.00"
+            }
+          ]
+        },
+        {
+          "image": "10.png",
+          "name": "Silken tofu gochujang rice bowl",
+          "description": "Silken tofu in a spicy gochujang glaze on a bed of sticky white rice. bok choi. pickled cucumber. snow onion slaw. red + spring onion. red chilli. sesame seeds",
+          "ingredients": "",
+          "notes": "",
+          "prices": [
+            {
+              "option": "Regular",
+              "price": "$12.50"
+            }
+          ]
+        },
+        {
+          "image": "11.png",
+          "name": "Beef brisket teriyaki donburi",
+          "description": "Beef in teriyaki sauce on a bed of sticky white rice. shredded carrots. pea shoots. spring onion. sesame seeds. side of kimchee",
+          "ingredients": "",
+          "notes": "",
+          "prices": [
+            {
+              "option": "Regular",
+              "price": "$16.50"
+            }
+          ]
+        },
+        {
+          "image": "12.png",
+          "name": "Chicken gochujang rice bowl",
+          "description": "Chicken in teriyaki sauce on a bed of sticky white rice. shredded carrots. pea shoots. spring onion. sesame seeds. side of kimchee",
+          "ingredients": "",
+          "notes": "",
+          "prices": [
+            {
+              "option": "Regular",
+              "price": "$14.50"
+            }
+          ]
+        },
+        {
+          "image": "13.png",
+          "name": "Grilled duck donburi",
+          "description": "Shredded duck in a sweet + spicy teriyaki sauce on a bed of sticky white rice. shredded carrots. mangetout. sweet potato. cucumber. onion. fried egg. side of kimchee",
+          "ingredients": "",
+          "notes": "",
+          "prices": [
+            {
+              "option": "Regular",
+              "price": "$19.00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Ramen",
+      "icon": "<svg width='24' height='24' viewBox='0 0 64 64' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M3 28H60C58.8812 38.7278 54.6337 47.7562 44.3847 53.4919V56.968C44.3847 58.6385 43.0479 60 41.4077 60H21.8293C20.1891 60 18.8523 58.6385 18.8523 56.968V53.2408C8.4516 47.8334 3.05689 39.481 3 28Z' stroke='currentColor' stroke-width='4' stroke-miterlimit='10' stroke-linecap='round' stroke-linejoin='round'/><path d='M59 3H11' stroke='currentColor' stroke-width='4' stroke-miterlimit='10' stroke-linecap='round' stroke-linejoin='round'/><path d='M59 12H11' stroke='currentColor' stroke-width='4' stroke-miterlimit='10' stroke-linecap='round' stroke-linejoin='round'/><path d='M15 3V28' stroke='currentColor' stroke-width='4' stroke-miterlimit='10' stroke-linecap='round' stroke-linejoin='round'/><path d='M23 3V28' stroke='currentColor' stroke-width='4' stroke-miterlimit='10' stroke-linecap='round' stroke-linejoin='round'/><path d='M31 3V28' stroke='currentColor' stroke-width='4' stroke-miterlimit='10' stroke-linecap='round' stroke-linejoin='round'/></svg>",
+      "description": "Hearty bowls of ramen with rich broth, tender noodles, and a variety of toppings.",
+      "items": [
+        {
+          "image": "14.png",
+          "name": "Tantanmen beef brisket ramen",
+          "description": "Slow-cooked korean barbecue beef brisket + ramen noodles in an extra rich chicken broth. menma. kimchee. spring onion. coriander. chilli oil. half a tea-stained egg",
+          "ingredients": "",
+          "notes": "",
+          "prices": [
+            {
+              "option": "Regular",
+              "price": "$17.50"
+            }
+          ]
+        },
+        {
+          "image": "15.png",
+          "name": "Grilled chicken ramen",
+          "description": "Marinated chicken breast + ramen noodles in a rich chicken broth. pea shoots. menma. spring onion",
+          "ingredients": "",
+          "notes": "",
+          "prices": [
+            {
+              "option": "Regular",
+              "price": "$14.00"
+            }
+          ]
+        },
+        {
+          "image": "16.png",
+          "name": "Chilli chicken ramen",
+          "description": "Marinated chicken breast + ramen noodles in a spicy chicken broth. onion. beansprouts. coriander. chilli. lime",
+          "ingredients": "",
+          "notes": "",
+          "prices": [
+            {
+              "option": "Regular",
+              "price": "$14.50"
+            }
+          ]
+        },
+        {
+          "image": "17.png",
+          "name": "Shirodashi pork belly ramen",
+          "description": "Slow-cooked pork belly drizzled with korean barbecue sauce + ramen noodles in a rich chicken broth. pea shoots. menma. wakame. spring onion. half a tea-stained egg",
+          "ingredients": "",
+          "notes": "",
+          "prices": [
+            {
+              "option": "Regular",
+              "price": "$16.00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Teppanyaki Noodles",
+      "icon": "<svg width='24' height='24' viewBox='0 0 64 64' fill='none' xmlns='http://www.w3.org/2000/svg'><g clip-path='url(#clip0_90_70)'><path d='M12 28C12 22.6957 14.1071 17.6086 17.8579 13.8579C21.6086 10.1071 26.6957 8 32 8C37.3043 8 42.3914 10.1071 46.1421 13.8579C49.8929 17.6086 52 22.6957 52 28' stroke='currentColor' stroke-width='4' stroke-linecap='round' stroke-linejoin='round'/><path d='M22.4 28C23.3221 23.4825 25.7767 19.4224 29.3484 16.5068C32.9201 13.5911 37.3894 11.9991 42 12C42.719 12.0004 43.4375 12.0388 44.1525 12.115' stroke='currentColor' stroke-width='4' stroke-linecap='round' stroke-linejoin='round'/><path d='M33.665 28.0001C34.9678 25.0202 36.9765 22.4022 39.5176 20.3725C42.0587 18.3427 45.0558 16.9622 48.25 16.3501' stroke='currentColor' stroke-width='4' stroke-linecap='round' stroke-linejoin='round'/><path d='M22 49.825C17.8214 47.9098 14.2808 44.8349 11.7989 40.9659C9.31712 37.0969 7.99855 32.5966 8 28H56C56.0014 32.5966 54.6829 37.0969 52.2011 40.9659C49.7192 44.8349 46.1786 47.9098 42 49.825V52C42 52.5304 41.7893 53.0391 41.4142 53.4142C41.0391 53.7893 40.5304 54 40 54H24C23.4696 54 22.9609 53.7893 22.5858 53.4142C22.2107 53.0391 22 52.5304 22 52V49.825Z' stroke='currentColor' stroke-width='4' stroke-linecap='round' stroke-linejoin='round'/></g><defs><clipPath id='clip0_90_70'><rect width='64' height='64' fill='white'/></clipPath></defs></svg>",
+      "description": "Stir-fried noodles made on a sizzling teppan grill, with your choice of protein and vegetables.",
+      "items": [
+        {
+          "image": "18.png",
+          "name": "Crispy duck saku saku soba",
+          "description": "Soba noodles cooked in sweet amai sauce. crispy shredded duck egg. beansprouts. leek. chunky spring onion. chilli. spicy teriyaki sauce (may contain small bones)",
+          "ingredients": "",
+          "notes": "",
+          "prices": [
+            {
+              "option": "Small",
+              "price": "$19.00"
+            }
+          ]
+        },
+        {
+          "image": "19.png",
+          "name": "Crispy shiitake saku saku soba",
+          "description": "Soba noodles cooked in sweet amai sauce. pulled shiitake. egg. beansprouts. leek. chunky spring onion. chilli. spicy teriyaki sauce",
+          "ingredients": "",
+          "notes": "",
+          "prices": [
+            {
+              "option": "Small",
+              "price": "$14.50"
+            }
+          ]
+        },
+        {
+          "image": "20.png",
+          "name": "Chicken + prawn yaki soba",
+          "description": "Soba noodles cooked with chicken. prawn. egg. peppers. beansprouts. onion. pickled ginger. crispy fried onions. sesame seeds.",
+          "ingredients": "",
+          "notes": "",
+          "prices": [
+            {
+              "option": "Small",
+              "price": "$15.00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Desserts",
+      "icon": "<svg width='24' height='24' viewBox='0 0 64 64' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M5 44.7059H59M5 44.7059V56H59V44.7059M5 44.7059V26.5373C5 26.5263 5.00888 26.5174 5.01981 26.5174H58.9801M59 44.7059V26.5373C59 26.5263 58.9912 26.5174 58.9801 26.5174M58.9801 26.5174C58.9912 26.5174 59 26.5081 59 26.4971L58.9973 26.4776L58.9831 25.8306C58.702 20.0926 54.9152 15.2788 49.7258 13.4971L49.604 13.5303L49.6243 14M58.9801 26.5174H5.13378C5.12285 26.5174 5.11401 26.5081 5.11401 26.4971C5.11401 26.4882 5.11971 26.4803 5.12805 26.4779L30.5788 18.6552L38.3247 16.5126C37.9764 15.7483 37.782 14.8971 37.782 14M49.6243 14C49.6243 10.6863 46.9735 8 43.7031 8C40.4331 8 37.782 10.6863 37.782 14M49.6243 14C49.6243 17.3137 46.9735 20 43.7031 20C40.4331 20 37.782 17.3137 37.782 14' stroke='currentColor' stroke-width='4' stroke-linejoin='round'/></svg>",
+      "description": "",
+      "items": [
+        {
+          "image": "21.png",
+          "name": "Yuzu basque cheesecake",
+          "description": "A soft + creamy baked cheesecake with a zesty yuzu twist. drizzled with sweet passionfruit sauce",
+          "ingredients": "",
+          "notes": "",
+          "prices": [
+            {
+              "option": "Small",
+              "price": "$7.50"
+            }
+          ]
+        },
+        {
+          "image": "22.png",
+          "name": "Momo meringue cake",
+          "description": "A crisp baked meringue with a light + airy peach sponge. white chocolate frosting + a sweet raspberry sauce at the centre. served with sour cherry compôte ",
+          "ingredients": "",
+          "notes": "",
+          "prices": [
+            {
+              "option": "Small",
+              "price": "$7.50"
+            }
+          ]
+        },
+        {
+          "image": "23.png",
+          "name": "White chocolate + ginger cheesecake",
+          "description": "A creamy cheesecake with a biscuit base and a zingy ginger twist. drizzled with a rich toffee sauce and dusted with ginger icing sugar",
+          "ingredients": "",
+          "notes": "",
+          "prices": [
+            {
+              "option": "Small",
+              "price": "$7.50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Soft drinks",
+      "icon": "<svg width='24' height='24' viewBox='0 0 64 64' fill='none' xmlns='http://www.w3.org/2000/svg'><g clip-path='url(#clip0_76_13)'><path d='M34.5 26.5H17.2317M17.2317 26.5L19.5 57.5V62.5H44.5V57.5L47.5 16.5H16.5L17.2317 26.5ZM38.5 49.5L42 1.5' stroke='currentColor' stroke-width='4' stroke-linecap='round' stroke-linejoin='round'/><circle cx='25.5' cy='34.5' r='1.5' fill='currentColor'/><circle cx='30.5' cy='42.5' r='1.5' fill='currentColor'/><circle cx='26.5' cy='49.5' r='1.5' fill='currentColor'/></g><defs><clipPath id='clip0_76_13'><rect width='64' height='64' fill='white'/></clipPath></defs></svg>",
+      "description": "",
+      "items": [
+        {
+          "image": "24.png",
+          "name": "Peach iced tea",
+          "description": "",
+          "ingredients": "",
+          "notes": "",
+          "prices": [
+            {
+              "option": "Small",
+              "price": "$4.00"
+            }
+          ]
+        },
+        {
+          "image": "25.png",
+          "name": "Cloudy lemonade",
+          "description": "",
+          "ingredients": "",
+          "notes": "",
+          "prices": [
+            {
+              "option": "Small",
+              "price": "$4.00"
+            }
+          ]
+        },
+        {
+          "image": "26.png",
+          "name": "Coke",
+          "description": "330ml can",
+          "ingredients": "",
+          "notes": "",
+          "prices": [
+            {
+              "option": "Small",
+              "price": "$2.60"
+            }
+          ]
+        },
+        {
+          "image": "27.png",
+          "name": "Diet Coke",
+          "description": "330ml can",
+          "ingredients": "",
+          "notes": "",
+          "prices": [
+            {
+              "option": "Small",
+              "price": "$2.50"
+            }
+          ]
+        },
+        {
+          "image": "28.png",
+          "name": "Sprite",
+          "description": "330ml can",
+          "ingredients": "",
+          "notes": "",
+          "prices": [
+            {
+              "option": "Small",
+              "price": "$2.50"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
